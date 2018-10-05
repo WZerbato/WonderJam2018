@@ -392,6 +392,7 @@
     <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_TexturePostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <None Include="Assets\Universal Sound FX\#Game Genre References\8bit and Retro.txt" />
     <None Include="Assets\Universal Sound FX\#Game Genre References\Fighting.txt" />
     <None Include="Assets\Universal Sound FX\#Game Genre References\First Person Shooter (FPS).txt" />
