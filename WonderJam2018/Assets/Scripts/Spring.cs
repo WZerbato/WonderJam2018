@@ -21,10 +21,14 @@ public class Spring : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            var x = collision.GetComponent<Rigidbody2D>().velocity.x;
-            collision.GetComponent<Rigidbody2D>().velocity = new Vector2(x, 0f);
-            collision.GetComponent<Rigidbody2D>().AddForce(jumpForce, ForceMode2D.Impulse);
-            GetComponent<Animator>().SetTrigger("animTrampoline");
+            if(collision.GetComponent<Rigidbody2D>().velocity.y < 0)
+            {
+                var x = collision.GetComponent<Rigidbody2D>().velocity.x;
+                collision.GetComponent<Rigidbody2D>().velocity = new Vector2(x, 0f);
+                collision.GetComponent<Rigidbody2D>().AddForce(jumpForce, ForceMode2D.Impulse);
+                GetComponent<Animator>().SetTrigger("animTrampoline");
+            }
+          
         }
     }
 

@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - HorSlider
+  - VerSlider
+  - HorPlatform
+  - VerPlatform
+  - HorSaw
+  - VerSaw
   layers:
   - Default
   - TransparentFX
