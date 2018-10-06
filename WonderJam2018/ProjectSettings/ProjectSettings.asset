@@ -619,9 +619,15 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
+<<<<<<< HEAD
   cloudProjectId: 4d4f7710-281d-43b8-b108-afaa74b140f0
   projectName: WonderJam2018 (1)
   organizationId: stienvdp
+=======
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
+>>>>>>> master
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
