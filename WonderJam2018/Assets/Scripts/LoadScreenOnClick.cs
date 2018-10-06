@@ -10,4 +10,11 @@ public class LoadScreenOnClick : MonoBehaviour {
     {
         SceneManager.LoadScene(sceneIndex);
     }
+
+
+    void setButtonActive()
+    {
+        GameObject go = GameObject.Find("BackButton");
+        go.SetActive(GameObject.Find("BackButton"));
+    }
 }
